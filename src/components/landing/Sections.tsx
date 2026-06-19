@@ -468,9 +468,9 @@ export function Contato() {
               <div className="grid place-items-center size-11 rounded-xl bg-[#1D8FFF]/15">
                 <Mail className="size-5 text-[#1D8FFF]" />
               </div>
-              <div>
+                <div>
                 <div className="text-xs text-muted-foreground">E-mail</div>
-                <div className="font-display font-semibold">contato@infinya.tech</div>
+                <div className="font-display font-semibold">infinyatecnologia@gmail.com</div>
               </div>
             </div>
           </div>
@@ -557,7 +557,7 @@ export function Footer() {
           <div>
             <h4 className="font-display text-sm font-semibold mb-3">Navegação</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              {["Início", "Sobre", "Serviços", "Produtos", "Contato"].map((l) => (
+              {["Início", "Sobre", "Serviços", "Contato"].map((l) => (
                 <li key={l}>
                   <a href={`#${l.toLowerCase().replace("í", "i").replace("ç", "c")}`} className="hover:text-foreground transition">
                     {l}
@@ -571,7 +571,7 @@ export function Footer() {
             <h4 className="font-display text-sm font-semibold mb-3">Contato</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>(19) 99693-9172</li>
-              <li>contato@infinya.tech</li>
+              <li>infinyatecnologia@gmail.com</li>
               <li>Brasil</li>
             </ul>
           </div>

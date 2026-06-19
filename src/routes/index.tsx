@@ -4,7 +4,6 @@ import {
   Hero,
   About,
   Services,
-  Products,
   Diferenciais,
   Processo,
   CTA,
@@ -55,7 +54,6 @@ function Landing() {
       <Hero />
       <About />
       <Services />
-      <Products />
       <Diferenciais />
       <Processo />
       <CTA />
