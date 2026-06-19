@@ -84,6 +84,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Infinya Tecnologia" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Infinya Tecnologia" },
+      { name: "twitter:title", content: "Infinya Tecnologia" },
+      { property: "og:description", content: "Soluções tecnológicas inteligentes e desenvolvimento sob medida." },
+      { name: "twitter:description", content: "Soluções tecnológicas inteligentes e desenvolvimento sob medida." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e80f6d0d-076d-4cb5-a142-5a7cf047f327" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e80f6d0d-076d-4cb5-a142-5a7cf047f327" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
